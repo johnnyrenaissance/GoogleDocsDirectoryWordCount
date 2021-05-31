@@ -36,7 +36,10 @@ This is a simple Google script that counts all the words in a Google drive direc
    
 # Caveat
 
-This is not production code. This code is not configured to be deployed. It's simply a tool to give the word count. As well, you MUST have access to this drive directory using your currently logged in account.
+- This is not production code.
+- This code is not configured to be deployed. It's simply a tool to give the word count. 
+- You MUST have access to this drive directory using your currently logged in account.
+- This code only counts the words of the files in the current directory, not sub-directories.
 
    
 # Contact
