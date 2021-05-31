@@ -12,11 +12,11 @@ A simple Google Script that shows your word count for all the documents in a doc
 # WHAT
 ############
 
-This is a simple Google script that counts all the words in a Google docs directory. This way you don't have to keep a running tally or manually open ever document in the directory to get the word count. It's helpful if you use multiple documents in the same directory when writing a book or other work.
+This is a simple Google script that counts all the words in a Google drive directory. This way you don't have to keep a running tally or manually open every document in the directory to get the word count. It's helpful if you use multiple documents in the same directory when writing a book or other work.
 
 
 ############
-# Setup
+# Setup and Execution
 ############
 
 1) Go to https://script.google.com/home. 
@@ -33,16 +33,16 @@ This is a simple Google script that counts all the words in a Google docs direct
   but with your ID.
 9) Click Run at the top.
 10) Watch your word counts show up at the bottom of the page as well as a summary wordcount.
-Profit!!!
+11) Profit!!!
 
-  
+   
 ############
 # Caveat
 ############
 
 This is not production code. This code is not configured to be deployed. It's simply a tool to give the wordcount. As well, you MUST have access to this drive directory using your currently logged in account.
 
-
+   
 ############
 # Contact
 ############
