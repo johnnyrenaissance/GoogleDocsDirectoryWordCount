@@ -22,10 +22,13 @@ This is a simple Google script that counts all the words in a Google drive direc
 6) Open https://drive.google.com and navigate to the directory that contains the documents you wish to wordcount.
 7) Copy the directory ID from the URL. The URL should look something like this: https://drive.google.com/drive/u/0/folders/1ZEEV9a5gtBmQQSlIH7ZNDdmXbT_3qPu0. The directory ID is the alphabet soup part: 1ZEEV9a5gtBmQQSlIH7ZNDdmXbT_3qPu0. 
 8) In your Google script, look for part that says <put in your directory ID here>, replace that section (including the <> angle brackets) with your directory ID.
+
    >   var folder = DriveApp.getFolderById('<put in your directory ID here>');
-  should become
+ should become
+   
   >    var folder = DriveApp.getFolderById('1ZEEV9a5gtBmQQSlIH7ZNDdmXbT_3qPu0');
-  but with your ID.
+but with your ID.
+
 9) Click Run at the top.
 10) Watch your word counts show up at the bottom of the page as well as a summary wordcount.
 11) Profit!!!
